@@ -1,5 +1,5 @@
 class MusicController < ApplicationController
-  skip_before_filter :verify_authenticity_token, :only => [:curlMe]
+  skip_before_filter :verify_authenticity_token, :only => [:curlme]
 
   def index
   end
